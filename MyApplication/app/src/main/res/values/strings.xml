@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">ProjektS2</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_accelerometer">Akcelerometer</string>
+    <string name="Akcelerometer">Akcelerometer</string>
+    <string name="Compass">Compass</string>
+    <string name="Proximity_senzor">Proximity sensor</string>
+    <string name="Light_senzor">Light senzor</string>
+    <string name="Camera">Camera</string>
 </resources>
