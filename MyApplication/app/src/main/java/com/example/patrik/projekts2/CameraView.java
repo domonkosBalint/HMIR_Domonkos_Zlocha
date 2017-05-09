@@ -1,4 +1,4 @@
-package com.example.blint.myapplication;
+package com.example.patrik.projekts2;
 
 import android.content.Context;
 import android.hardware.Camera;
@@ -21,6 +21,8 @@ public class CameraView extends SurfaceView implements SurfaceHolder.Callback{
         mHolder = getHolder();
         mHolder.addCallback(this);
         mHolder.setType(SurfaceHolder.SURFACE_TYPE_NORMAL);
+
+
     }
 
     @Override
