@@ -4,11 +4,9 @@ import android.app.Activity;
 import android.hardware.Camera;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.FrameLayout;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 public class MainActivity extends Activity {
 
@@ -28,7 +26,7 @@ public class MainActivity extends Activity {
 
         if(mCamera != null) {
             mCameraView = new CameraView(this, mCamera);//create a SurfaceView to show camera data
-            FrameLayout camera_view = (FrameLayout)findViewById(R.id.camera_view);
+            RelativeLayout camera_view = (RelativeLayout)findViewById(R.id.camera_view);
             camera_view.addView(mCameraView);//add the SurfaceView to the layout
         }
 
