@@ -50,10 +50,9 @@
             android:label="Compass senzor"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".CameraView"
-            android:label="Camera"
-            android:screenOrientation="portrait">
-        </activity>
+            android:name=".CameraActivity"
+            android:label="Camera "
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
