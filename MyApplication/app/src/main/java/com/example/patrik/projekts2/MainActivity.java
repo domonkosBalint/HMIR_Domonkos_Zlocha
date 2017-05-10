@@ -1,23 +1,15 @@
 package com.example.patrik.projekts2;
 
-import android.content.Context;
 import android.content.Intent;
-import android.hardware.Sensor;
-import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ArrayAdapter;
+import android.view.View;
 import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TextView;
-
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button lv_accelerometer;
@@ -98,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, LightActivity.class));
                 break;
             case R.id.camera:
-                startActivity(new Intent(MainActivity.this, CameraView.class));
+                startActivity(new Intent(MainActivity.this, CameraActivity.class));
                 break;
             default:
                 break;
